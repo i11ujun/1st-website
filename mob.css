@@ -1,0 +1,79 @@
+h1{
+	background-color: blue;
+	color: white;
+	text-align: center;
+	font-size: 36px;
+}
+
+
+body{
+background-image: url("https://media.licdn.com/media/AAEAAQAAAAAAAAWOAAAAJDNmYmUwZTk5LTcyNWEtNDcyZS05MzQxLWE1NzEzMDAwOWM0Nw.png");
+
+}
+
+
+
+.navy {
+	background-image: url("http://www.navy.mil/navydata/questions/NavyEmblem.gif");
+	
+	width: 300px;
+	height: 300px;
+	float: left;
+	background-size: cover;
+	margin-right: 20px;
+	font-size: 28px;
+	font-style: bold italic;
+
+}
+
+
+.code{
+	background-image: url("http://rightnowwebdesign.com/img/web-design-services/web-development-pic.png");
+	width: 300px;
+	height: 300px;
+	float: right;
+	background-size: cover;
+	margin-right: 20px;
+	 font-size: 28px;
+	 font-style: bold italic;
+}
+
+.success{
+	background-image: url("http://www.makeupandbeautyblog.com/wp-content/uploads/2011/02/1up-mushroom-head.gif");
+	width: 300px;
+	height: 300px;
+	float: right;
+	background-position: bottom;
+	font-size: 28px;
+	font-style: bold italic;
+}
+
+.past{
+	position: bottom;
+	font-size: 20px;
+}
+
+
+.present{
+	position: bottom;
+	font-size: 20px;
+}
+
+.future{
+	position: bottom;
+	font-size: 20px;
+	font-style: bold;
+}
+
+@media all and (max-width: 400px){
+.navy, .code, .success, .past{
+	width: 100%;
+	background-size: cover;
+	border: none;
+	float: none;
+	margin: 0 auto;
+
+
+
+
+
